@@ -31,4 +31,5 @@ repositories {
 
 dependencies {
     compile 'com.facebook.react:react-native:0.19.+'
+    api project(path: ':react-native-webview')
 }

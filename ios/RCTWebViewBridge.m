@@ -224,7 +224,7 @@ RCT_NOT_IMPLEMENTED(- (instancetype)initWithCoder:(NSCoder *)aDecoder)
 - (BOOL)webView:(__unused UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request
  navigationType:(UIWebViewNavigationType)navigationType
 {
-  BOOL isJSNavigation = [request.URL.scheme isEqualToString:RCTJSNavigationScheme];
+  BOOL isJSNavigation = [request.URL.scheme isEqualToString:RNCJSNavigationScheme];
 
   if (!isJSNavigation && [request.URL.scheme isEqualToString:RCTWebViewBridgeSchema]) {
     NSString* message = [webView stringByEvaluatingJavaScriptFromString:@"WebViewBridge.__fetch__()"];
