@@ -2,7 +2,7 @@
  * Copyright (c) 2015-present, Facebook, Inc.
  * All rights reserved.
  *
- * Copyright (c) 2015-present, Ali Najafizadeh (github.com/alinz)
+ * Copyri/Users/wingleong/Desktop/joyeewalker/react-native/node_modules/react-native-webview-bridge/ios/RCTWebViewBridgeManager.mght (c) 2015-present, Ali Najafizadeh (github.com/alinz)
  * All rights reserved
  *
  * This source code is licensed under the BSD-style license found in the
@@ -16,6 +16,7 @@
 #import <React/RCTUIManager.h>
 #import "RCTWebViewBridge.h"
 #import "UIView+React.h"
+NSString *const RNCJSNavigationScheme = @"react-js-navigation";
 
 @interface RCTWebViewBridgeManager () <RCTWebViewBridgeDelegate>
 
